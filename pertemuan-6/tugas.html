@@ -7,6 +7,7 @@
 </head>
 <body>
     <form action="Login.php" method="post">
+        <fieldset>
         <div>
             <label>username</label>
             <input type="text" name="username" placeholder="username">
@@ -22,13 +23,13 @@
         </div>
          <div>
             <label>Hobi</label>
-            <select name="Hobi">
-                <option value="Hobi">Memasak</option>
-                <option value="Hobi">Bersepeda</option>
-                <option value="Hobi">Lari</option>
-                <option value="Hobi">Panahan</option>
-                 <option value="Hobi">Renang</option>
-            </select>
+            <label><input type="checkbox" name="Hobi" value="Memasak">Memasak</label>
+            <label><input type="checkbox" name="Hobi" value="Bersepeda">Bersepeda</label>
+            <label><input type="checkbox" name="Hobi" value="Lari">Lari</label>
+            <label><input type="checkbox" name="Hobi" value="Panahan">Panahan</label>
+            <label><input type="checkbox" name="Hobi" value="Renang">Renang</label>
         </div>
+        <button>kirim</button>
+        </fieldset>
 </body>
 </html>
