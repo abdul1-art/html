@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="Login.php" method="post">
+        <fieldset>
+            <div>
+            <label>name</label>
+            <input type="text" name="nama" placeholder="nama lengkap">
+        </div>
+            <div>
+            <label>username</label>
+            <input type="text" name="username" placeholder="username">
+        </div>
+        <div>
+           <label>Email</label>
+            <input type="email" name="email" placeholder="email">
+        </div>
+        <div>
+           <label>password</label>
+            <input type="password" name="password" placeholder="password">
+        </div>
+        <div>
+           <label>Jenis kelamin</label>
+            <label><input type="radio" name="Jenis kelamin" value="laki laki">Laki laki</label>
+            <label><input type="radio" name="Jenis kelamin" value="peremupuan">peremupuan</label>
+        </div>
+        <div>
+            <label>Agama</label>
+            <select name="Agama">
+                <option value="islam">islam</option>
+                <option value="islam">Kristen</option>
+                <option value="islam">Buddha</option>
+                <option value="islam">Hindu</option>
+            </select>
+        </div>
+        <div>
+            <label>Biografi</label>
+            <textarea name="Biografi"></textarea>
+        </div>
+        <div></div>
+        <input type="submit" name="submit" value="Daftar">
+    </form>
+</fieldset>
+</body>
+</html>
